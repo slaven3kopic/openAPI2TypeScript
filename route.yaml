@@ -1,0 +1,15 @@
+openapi: 3.0.0
+components:
+  schemas:
+    IRoute:
+      type: object
+      properties:
+        href:
+          description: Route href
+          type: string
+        label:
+          description: Route label
+          type: string
+      required:
+        - href
+        - label
