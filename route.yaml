@@ -1,4 +1,9 @@
 openapi: 3.0.0
+info:
+  title: Top Navigation Bar API
+  description: Top Navigation Bar API
+  version: 1.0.0
+paths: {}
 components:
   schemas:
     IRoute:
@@ -13,3 +18,12 @@ components:
       required:
         - href
         - label
+    IExtendedRoute:
+      allOf: # Combines the HuiRoute and the inline model
+        - $ref: '#/components/schemas/IRoute'
+        - type: object
+          properties:
+            timestamp:
+              type: integer
+          required:
+            - timestamp
