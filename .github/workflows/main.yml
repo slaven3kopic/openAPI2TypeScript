@@ -20,6 +20,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm run build
+    - run: ls -ll
     - name: Archive dist
       uses: actions/upload-artifact@v2
       with:
