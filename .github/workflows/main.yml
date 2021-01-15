@@ -25,4 +25,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: generated_ts
-        path: dist/route.types.ts
+        path: route.types.ts
