@@ -10,7 +10,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "prebuild": "npm i",
-        "build": "npx swagger-typescript-api -p ./route.yaml -o ./ -n route.d.ts --no-client"
+        "build": "npx swagger-typescript-api -p ./route.yaml -o ./ -n route.types.ts --no-client"
     },
     "repository": {
         "type": "git",
