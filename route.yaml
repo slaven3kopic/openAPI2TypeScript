@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
-  title: Top Navigation Bar API
-  description: Top Navigation Bar API
+  title: Route schema
+  description: Route schema
   version: 1.0.0
 paths: {}
 components:
